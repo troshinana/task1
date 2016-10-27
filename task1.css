@@ -1,0 +1,12 @@
+.line_name{font-size: 24pt;text-decoration: underline;text-align:center;font-weight: bold;margin-right: 10%;   margin-left: 10%;}
+.station_name{font-style: italic;font-size: 20pt;background-color:D2691E;margin-right: 10%;margin-left: 10%;font-weight: bold;list-style: square outside;}
+.description{font-size: 18pt;margin-right: 10%; margin-left: 10%;}
+.photo {
+text-align: center;
+padding: 2px; 
+}
+.photo img{
+height: 200px;
+width: 350px; 
+}
+body {background-color:#F4A460;}
