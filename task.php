@@ -45,7 +45,7 @@
 		]
 	];
 	foreach ($metro as $key_line=>$line) { 
-		echo "<div class='line_name'>Линия метро:".htmlspecialchar($key_line)."</div>";
+		echo "<div class='line_name'>Линия метро:".htmlspecialchars($key_line)."</div>";
 			foreach($line as $station) {
 				if ($key_line =="Ленинская") {
 					if (isset($station['name'])) {
